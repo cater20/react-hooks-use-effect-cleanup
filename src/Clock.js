@@ -11,7 +11,7 @@ function Clock() {
     return function cleanup() {
       clearInterval(timerID);
     };
-  }, []);
+  }, [])
 
   return <div>{time.toString()}</div>;
 }
